@@ -1,0 +1,83 @@
+body{
+    font-family: 'Moon Dance', cursive;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .header-container {
+    width: 100%;
+    background-image: url('https://as1.ftcdn.net/v2/jpg/10/26/34/42/1000_F_1026344224_qn9v4UDJmIl0bcuWyrs28vQ4fSbUPzF7.jpg');
+    background-size: cover; /* Cover the entire width */
+    background-repeat: no-repeat;
+    background-position: top center; /* Center the background */
+    position: fixed; /* Fix the header to the top */
+    top: 0;
+    z-index: 10; /* Ensure it's above other content */
+    height: 187px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Allow content to span the width */
+}
+
+.dahlias {
+    max-height: 200px; /* Adjust as needed */
+    max-width: 250px; /* Adjust as needed */
+    object-fit: contain; /* Prevent image distortion */
+    margin: 0 20px; /* Add space between text and image */
+}
+
+.left-text, .right-text {
+    color: powderblue; /* Or any color you prefer */
+    font-size: 1.7em; /* Adjust font size */
+    white-space: nowrap; /* Prevent text wrapping */
+    font-weight: 800; /* Make the text bold */
+}
+
+.content {
+    width: 80%;
+    margin: 350px auto 20px auto; /* Add top margin to avoid overlap with fixed header*/
+    padding: 20px;
+}
+
+.post {
+    margin-bottom: 30px;
+    border: 2px solid grey;
+    padding: 20px;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+p { 
+    font-size: 1.4em;
+    line-height: 2.0s;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: 20px;
+    font-size: medium;
+}
+
+
+
